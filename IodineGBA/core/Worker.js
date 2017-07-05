@@ -132,6 +132,7 @@ self.onmessage = function (event) {
             break;
         case 16:
             Iodine.attachROM(data.payload);
+			console.log(data,payload);
             break;
         case 17:
             Iodine.exportSave();
